@@ -1,0 +1,175 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    
+}
+body
+{
+    background-repeat: no-repeat;
+    width: 100%;
+    background-image: url(bg.jpg);
+}
+.image
+{
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    right: 13%;
+    top: 22%;
+}
+.container
+{
+    background-color: white;
+    width: 100%;
+    margin-top: 65%;
+    margin-bottom: 40px;
+    height: 400px;
+    display: flex;
+    padding: 0%;
+}
+.subContainer
+{
+    width: 29%;
+    float: left;
+    background-color: #f2f2f4;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    padding: 2% 1% 1% 1%;
+    background-image: url(bg.jpg);
+    border: 3px solid white;
+    color: #333333;
+    border-radius: 40px;
+    
+}
+
+.subContainer ul
+{
+    position: relative;
+}
+.subContainer ul li
+{
+    list-style:  none;
+}
+.subContainer ul li a
+{
+    display: inline-block;
+    color: #333333;
+    font-size: 17px;
+    margin-left: 20px;
+    text-decoration: none;
+    padding: 3px 5px
+}
+.subContainer ul li a:hover
+{
+    font-size: 15px;
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo
+{
+    position: relative;
+    max-width: 80px;
+}
+header ul
+{
+    position: relative;
+    display: flex;
+}
+header ul li
+{
+    list-style: none;
+}
+header ul li a
+{
+    display: inline-block;
+    color: #333333;
+    font-weight: 400;
+    margin-left: 20px;
+    text-decoration: none;
+    padding: 8px 20px;
+}
+header ul li a:hover
+{
+    padding: 8px 20px;
+    background:white;
+    border-radius: 40px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.content
+{
+    position: absolute;
+    top: 28%;
+    left: 5%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.content .textBox
+{
+    position: relative;
+    max-width: 600px;
+}
+.content .textBox h2
+{
+    color: #333333;
+    font-size :3.8em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+.content .textBox h2 span
+{
+    color: #295e9b80;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+.content .textBox p
+{
+    color: #333333;
+}
+.content .textBox a
+{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #295e9b80;
+    color: #ffffff;
+    border-radius: 40px;
+    font-weight: 40;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.content .textBox a:hover
+{
+    color: #295e9b80 ;
+    background: #ffffff;
+}
+.content .imgBox
+{
+    width: 600px;
+    display: flex;
+    justify-content: flex-star;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+.footer
+{
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+}
